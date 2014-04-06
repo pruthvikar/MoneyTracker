@@ -22,6 +22,15 @@
 		A8358C1918F1959900ECEEC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8358BFD18F1959900ECEEC4 /* CoreData.framework */; };
 		A8358C2118F1959900ECEEC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8358C1F18F1959900ECEEC4 /* InfoPlist.strings */; };
 		A8358C2318F1959900ECEEC4 /* MoneyTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8358C2218F1959900ECEEC4 /* MoneyTrackerTests.m */; };
+		A8358C3018F195F700ECEEC4 /* PMRBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */; };
+		A8358C3318F1961100ECEEC4 /* PMRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8358C3218F1961100ECEEC4 /* PMRTabBarController.m */; };
+		A8E06DF518F19ECA0012924D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E06DF418F19ECA0012924D /* Main.storyboard */; };
+		A8E06DF818F1BC650012924D /* PMRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06DF718F1BC650012924D /* PMRNavigationController.m */; };
+		A8E06DFB18F1BCE80012924D /* PMRNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06DFA18F1BCE80012924D /* PMRNumberViewController.m */; };
+		A8E06E0118F1BF650012924D /* PMRNumberPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0018F1BF650012924D /* PMRNumberPadViewController.m */; };
+		A8E06E0418F1CFEC0012924D /* PMRTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0318F1CFEC0012924D /* PMRTypeViewController.m */; };
+		A8E06E0718F1E1110012924D /* UIImage+PMRRecolor.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0518F1E1110012924D /* UIImage+PMRRecolor.m */; };
+		A8E06E0A18F1E4510012924D /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0918F1E4510012924D /* Transaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,23 @@
 		A8358C1E18F1959900ECEEC4 /* MoneyTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoneyTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		A8358C2018F1959900ECEEC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8358C2218F1959900ECEEC4 /* MoneyTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTrackerTests.m; sourceTree = "<group>"; };
+		A8358C2E18F195F700ECEEC4 /* PMRBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRBalanceViewController.h; sourceTree = "<group>"; };
+		A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRBalanceViewController.m; sourceTree = "<group>"; };
+		A8358C3118F1961100ECEEC4 /* PMRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRTabBarController.h; sourceTree = "<group>"; };
+		A8358C3218F1961100ECEEC4 /* PMRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRTabBarController.m; sourceTree = "<group>"; };
+		A8E06DF418F19ECA0012924D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A8E06DF618F1BC650012924D /* PMRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRNavigationController.h; sourceTree = "<group>"; };
+		A8E06DF718F1BC650012924D /* PMRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRNavigationController.m; sourceTree = "<group>"; };
+		A8E06DF918F1BCE80012924D /* PMRNumberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRNumberViewController.h; sourceTree = "<group>"; };
+		A8E06DFA18F1BCE80012924D /* PMRNumberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRNumberViewController.m; sourceTree = "<group>"; };
+		A8E06DFF18F1BF650012924D /* PMRNumberPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRNumberPadViewController.h; sourceTree = "<group>"; };
+		A8E06E0018F1BF650012924D /* PMRNumberPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRNumberPadViewController.m; sourceTree = "<group>"; };
+		A8E06E0218F1CFEC0012924D /* PMRTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRTypeViewController.h; sourceTree = "<group>"; };
+		A8E06E0318F1CFEC0012924D /* PMRTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRTypeViewController.m; sourceTree = "<group>"; };
+		A8E06E0518F1E1110012924D /* UIImage+PMRRecolor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PMRRecolor.m"; sourceTree = "<group>"; };
+		A8E06E0618F1E1110012924D /* UIImage+PMRRecolor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PMRRecolor.h"; sourceTree = "<group>"; };
+		A8E06E0818F1E4510012924D /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		A8E06E0918F1E4510012924D /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +143,23 @@
 			children = (
 				A8358C0818F1959900ECEEC4 /* PMRAppDelegate.h */,
 				A8358C0918F1959900ECEEC4 /* PMRAppDelegate.m */,
+				A8358C2E18F195F700ECEEC4 /* PMRBalanceViewController.h */,
+				A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */,
+				A8358C3118F1961100ECEEC4 /* PMRTabBarController.h */,
+				A8358C3218F1961100ECEEC4 /* PMRTabBarController.m */,
+				A8E06DF618F1BC650012924D /* PMRNavigationController.h */,
+				A8E06DF718F1BC650012924D /* PMRNavigationController.m */,
+				A8E06DF418F19ECA0012924D /* Main.storyboard */,
+				A8E06DF918F1BCE80012924D /* PMRNumberViewController.h */,
+				A8E06DFA18F1BCE80012924D /* PMRNumberViewController.m */,
+				A8E06DFF18F1BF650012924D /* PMRNumberPadViewController.h */,
+				A8E06E0018F1BF650012924D /* PMRNumberPadViewController.m */,
+				A8E06E0218F1CFEC0012924D /* PMRTypeViewController.h */,
+				A8E06E0518F1E1110012924D /* UIImage+PMRRecolor.m */,
+				A8E06E0618F1E1110012924D /* UIImage+PMRRecolor.h */,
+				A8E06E0318F1CFEC0012924D /* PMRTypeViewController.m */,
+				A8E06E0818F1E4510012924D /* Transaction.h */,
+				A8E06E0918F1E4510012924D /* Transaction.m */,
 				A8358C0E18F1959900ECEEC4 /* Images.xcassets */,
 				A8358C0B18F1959900ECEEC4 /* MoneyTracker.xcdatamodeld */,
 				A8358C0018F1959900ECEEC4 /* Supporting Files */,
@@ -231,6 +274,7 @@
 			files = (
 				A8358C0418F1959900ECEEC4 /* InfoPlist.strings in Resources */,
 				A8358C0F18F1959900ECEEC4 /* Images.xcassets in Resources */,
+				A8E06DF518F19ECA0012924D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E06E0718F1E1110012924D /* UIImage+PMRRecolor.m in Sources */,
 				A8358C0A18F1959900ECEEC4 /* PMRAppDelegate.m in Sources */,
+				A8E06DF818F1BC650012924D /* PMRNavigationController.m in Sources */,
+				A8358C3018F195F700ECEEC4 /* PMRBalanceViewController.m in Sources */,
+				A8E06E0118F1BF650012924D /* PMRNumberPadViewController.m in Sources */,
 				A8358C0D18F1959900ECEEC4 /* MoneyTracker.xcdatamodeld in Sources */,
+				A8E06DFB18F1BCE80012924D /* PMRNumberViewController.m in Sources */,
+				A8E06E0A18F1E4510012924D /* Transaction.m in Sources */,
 				A8358C0618F1959900ECEEC4 /* main.m in Sources */,
+				A8E06E0418F1CFEC0012924D /* PMRTypeViewController.m in Sources */,
+				A8358C3318F1961100ECEEC4 /* PMRTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +500,7 @@
 				A8358C2818F1959900ECEEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8358C2918F1959900ECEEC4 /* Build configuration list for PBXNativeTarget "MoneyTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +509,7 @@
 				A8358C2B18F1959900ECEEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
