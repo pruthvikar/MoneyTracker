@@ -3,4 +3,4 @@ MoneyTracker
 
 Money Tracking app for iOS based on this design from Marco Corti
 
-http://dribbble.com/shots/1495513-Money-Tracking-Concept-App?list=users&offset=0
+http://dribbble.com/shots/1495513-Money-Tracking-Concept-App
