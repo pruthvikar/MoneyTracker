@@ -225,7 +225,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="N03-A1-cjK" customClass="PMRTabBarController" sceneMemberID="viewController">
                     <nil key="simulatedStatusBarMetrics"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="aWj-2w-5eE">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -240,10 +240,10 @@
             </objects>
             <point key="canvasLocation" x="172" y="-96"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--Graph View Controller-->
         <scene sceneID="OqC-F1-lve">
             <objects>
-                <viewController id="BJB-Sr-7X7" sceneMemberID="viewController">
+                <viewController id="BJB-Sr-7X7" customClass="PMRGraphViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Giv-Ib-CmF"/>
                         <viewControllerLayoutGuide type="bottom" id="bXv-NZ-Mml"/>
@@ -253,7 +253,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ZDO-5R-9qX"/>
+                    <tabBarItem key="tabBarItem" title="" image="graph" id="ZDO-5R-9qX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OqE-UK-Ifa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -261,6 +261,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="graph" width="32" height="32"/>
         <image name="scales" width="32" height="32"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

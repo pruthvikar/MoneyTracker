@@ -43,23 +43,11 @@
 
     self.balanceLabel.textColor=[UIColor whiteColor];
 
-    
-    
-    
-    
-    
-//    self.tabBarController.tabBar.alpha=.1;
     self.tabBarController.tabBar.translucent=YES;
     _priceLocale = [NSLocale currentLocale];
     _currencyFormatter=[[NSNumberFormatter alloc] init];
     [_currencyFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
     [_currencyFormatter setLocale:_priceLocale];
-
-
-
-    
-
-    
     UIPanGestureRecognizer* pgr = [[UIPanGestureRecognizer alloc]
                                    initWithTarget:self
                                    action:@selector(handlePan:)];
@@ -112,13 +100,16 @@
         [pgr setTranslation:CGPointZero inView:pgr.view];
         if (center.y-_center.y>150) {
             [self performSegueWithIdentifier:@"TransactionView" sender:@"Income"];
+            pgr.enabled=NO;
+            pgr.enabled=YES;
         }
         else if (center.y-_center.y<-150) {
             [self performSegueWithIdentifier:@"TransactionView" sender:@"Expense"];
+            pgr.enabled=NO;
+            pgr.enabled=YES;
         }
     }
-    else if (pgr.state == UIGestureRecognizerStateEnded || pgr.state==UIGestureRecognizerStateCancelled
-             || pgr.state==UIGestureRecognizerStateFailed)
+    else if (pgr.state == UIGestureRecognizerStateEnded )
     {
         CGPoint center=self.tabBarController.view.center;
         if (center.y-_center.y>75) {
@@ -128,19 +119,20 @@
             [self performSegueWithIdentifier:@"TransactionView" sender:@"Expense"];
         }
         
-        [UIView animateWithDuration:0.2 animations:^{
-            
-        
-        
-        self.tabBarController.view.center = _center;
-        }];
-        [pgr setTranslation:CGPointZero inView:pgr.view];
+   
     
     }
     
-    if (pgr.state == UIGestureRecognizerStateEnded)
+    if (pgr.state == UIGestureRecognizerStateEnded|| pgr.state==UIGestureRecognizerStateCancelled
+        || pgr.state==UIGestureRecognizerStateFailed)
     {
-    
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            
+            
+            self.tabBarController.view.center = _center;
+        }];
+        [pgr setTranslation:CGPointZero inView:pgr.view];
     
     }
     

@@ -24,6 +24,12 @@
 		A8358C2318F1959900ECEEC4 /* MoneyTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8358C2218F1959900ECEEC4 /* MoneyTrackerTests.m */; };
 		A8358C3018F195F700ECEEC4 /* PMRBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */; };
 		A8358C3318F1961100ECEEC4 /* PMRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8358C3218F1961100ECEEC4 /* PMRTabBarController.m */; };
+		A891EF1F18F21D4800C51EBF /* PMRGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A891EF1E18F21D4800C51EBF /* PMRGraphViewController.m */; };
+		A891EF2A18F226C800C51EBF /* JBLineChartFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A891EF2818F226C800C51EBF /* JBLineChartFooterView.m */; };
+		A891EF2B18F226C800C51EBF /* JBChartHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A891EF2918F226C800C51EBF /* JBChartHeaderView.m */; };
+		A891EFAA18F2279F00C51EBF /* JBChartInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A891EFA518F2279F00C51EBF /* JBChartInformationView.m */; };
+		A891EFAB18F2279F00C51EBF /* JBChartTooltipTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A891EFA718F2279F00C51EBF /* JBChartTooltipTipView.m */; };
+		A891EFAC18F2279F00C51EBF /* JBChartTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = A891EFA918F2279F00C51EBF /* JBChartTooltipView.m */; };
 		A8E06DF518F19ECA0012924D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E06DF418F19ECA0012924D /* Main.storyboard */; };
 		A8E06DF818F1BC650012924D /* PMRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06DF718F1BC650012924D /* PMRNavigationController.m */; };
 		A8E06DFB18F1BCE80012924D /* PMRNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06DFA18F1BCE80012924D /* PMRNumberViewController.m */; };
@@ -31,6 +37,7 @@
 		A8E06E0418F1CFEC0012924D /* PMRTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0318F1CFEC0012924D /* PMRTypeViewController.m */; };
 		A8E06E0718F1E1110012924D /* UIImage+PMRRecolor.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0518F1E1110012924D /* UIImage+PMRRecolor.m */; };
 		A8E06E0A18F1E4510012924D /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E06E0918F1E4510012924D /* Transaction.m */; };
+		EBC3EA60F9204B0A986D49DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E20A3F850A466A94346DC6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5133FB2D081C4B04B708CCFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		65E20A3F850A466A94346DC6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8358BF418F1959900ECEEC4 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8358BF718F1959900ECEEC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8358BF918F1959900ECEEC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +75,19 @@
 		A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRBalanceViewController.m; sourceTree = "<group>"; };
 		A8358C3118F1961100ECEEC4 /* PMRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRTabBarController.h; sourceTree = "<group>"; };
 		A8358C3218F1961100ECEEC4 /* PMRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRTabBarController.m; sourceTree = "<group>"; };
+		A891EF1C18F21BF400C51EBF /* MoneyTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MoneyTracker.entitlements; sourceTree = "<group>"; };
+		A891EF1D18F21D4800C51EBF /* PMRGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRGraphViewController.h; sourceTree = "<group>"; };
+		A891EF1E18F21D4800C51EBF /* PMRGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRGraphViewController.m; sourceTree = "<group>"; };
+		A891EF2618F226C800C51EBF /* JBChartHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartHeaderView.h; sourceTree = "<group>"; };
+		A891EF2718F226C800C51EBF /* JBLineChartFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartFooterView.h; sourceTree = "<group>"; };
+		A891EF2818F226C800C51EBF /* JBLineChartFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartFooterView.m; sourceTree = "<group>"; };
+		A891EF2918F226C800C51EBF /* JBChartHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartHeaderView.m; sourceTree = "<group>"; };
+		A891EFA418F2279F00C51EBF /* JBChartInformationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartInformationView.h; sourceTree = "<group>"; };
+		A891EFA518F2279F00C51EBF /* JBChartInformationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartInformationView.m; sourceTree = "<group>"; };
+		A891EFA618F2279F00C51EBF /* JBChartTooltipTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTooltipTipView.h; sourceTree = "<group>"; };
+		A891EFA718F2279F00C51EBF /* JBChartTooltipTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTooltipTipView.m; sourceTree = "<group>"; };
+		A891EFA818F2279F00C51EBF /* JBChartTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartTooltipView.h; sourceTree = "<group>"; };
+		A891EFA918F2279F00C51EBF /* JBChartTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartTooltipView.m; sourceTree = "<group>"; };
 		A8E06DF418F19ECA0012924D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A8E06DF618F1BC650012924D /* PMRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMRNavigationController.h; sourceTree = "<group>"; };
 		A8E06DF718F1BC650012924D /* PMRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMRNavigationController.m; sourceTree = "<group>"; };
@@ -90,6 +112,7 @@
 				A8358BFE18F1959900ECEEC4 /* CoreData.framework in Frameworks */,
 				A8358BFC18F1959900ECEEC4 /* UIKit.framework in Frameworks */,
 				A8358BF818F1959900ECEEC4 /* Foundation.framework in Frameworks */,
+				EBC3EA60F9204B0A986D49DE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +137,7 @@
 				A8358C1C18F1959900ECEEC4 /* MoneyTrackerTests */,
 				A8358BF618F1959900ECEEC4 /* Frameworks */,
 				A8358BF518F1959900ECEEC4 /* Products */,
+				5133FB2D081C4B04B708CCFA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +158,7 @@
 				A8358BFB18F1959900ECEEC4 /* UIKit.framework */,
 				A8358BFD18F1959900ECEEC4 /* CoreData.framework */,
 				A8358C1518F1959900ECEEC4 /* XCTest.framework */,
+				65E20A3F850A466A94346DC6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,26 +166,26 @@
 		A8358BFF18F1959900ECEEC4 /* MoneyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A891EF1C18F21BF400C51EBF /* MoneyTracker.entitlements */,
 				A8358C0818F1959900ECEEC4 /* PMRAppDelegate.h */,
 				A8358C0918F1959900ECEEC4 /* PMRAppDelegate.m */,
-				A8358C2E18F195F700ECEEC4 /* PMRBalanceViewController.h */,
-				A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */,
+				A891EFB518F22F4800C51EBF /* Balance */,
 				A8358C3118F1961100ECEEC4 /* PMRTabBarController.h */,
 				A8358C3218F1961100ECEEC4 /* PMRTabBarController.m */,
 				A8E06DF618F1BC650012924D /* PMRNavigationController.h */,
 				A8E06DF718F1BC650012924D /* PMRNavigationController.m */,
+				A891EFB618F22F4F00C51EBF /* History */,
 				A8E06DF418F19ECA0012924D /* Main.storyboard */,
-				A8E06DF918F1BCE80012924D /* PMRNumberViewController.h */,
-				A8E06DFA18F1BCE80012924D /* PMRNumberViewController.m */,
-				A8E06DFF18F1BF650012924D /* PMRNumberPadViewController.h */,
-				A8E06E0018F1BF650012924D /* PMRNumberPadViewController.m */,
+				A891EFB418F22F3E00C51EBF /* Transaction */,
+				A8E06E0318F1CFEC0012924D /* PMRTypeViewController.m */,
 				A8E06E0218F1CFEC0012924D /* PMRTypeViewController.h */,
+				A891EFB318F22F2C00C51EBF /* Charts */,
 				A8E06E0518F1E1110012924D /* UIImage+PMRRecolor.m */,
 				A8E06E0618F1E1110012924D /* UIImage+PMRRecolor.h */,
-				A8E06E0318F1CFEC0012924D /* PMRTypeViewController.m */,
 				A8E06E0818F1E4510012924D /* Transaction.h */,
 				A8E06E0918F1E4510012924D /* Transaction.m */,
 				A8358C0E18F1959900ECEEC4 /* Images.xcassets */,
+				A891EFB718F22F6400C51EBF /* Chart */,
 				A8358C0B18F1959900ECEEC4 /* MoneyTracker.xcdatamodeld */,
 				A8358C0018F1959900ECEEC4 /* Supporting Files */,
 			);
@@ -196,6 +221,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A891EFB318F22F2C00C51EBF /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				A891EFA418F2279F00C51EBF /* JBChartInformationView.h */,
+				A891EFA518F2279F00C51EBF /* JBChartInformationView.m */,
+				A891EFA618F2279F00C51EBF /* JBChartTooltipTipView.h */,
+				A891EFA718F2279F00C51EBF /* JBChartTooltipTipView.m */,
+				A891EFA818F2279F00C51EBF /* JBChartTooltipView.h */,
+				A891EFA918F2279F00C51EBF /* JBChartTooltipView.m */,
+			);
+			name = Charts;
+			sourceTree = "<group>";
+		};
+		A891EFB418F22F3E00C51EBF /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				A8E06DF918F1BCE80012924D /* PMRNumberViewController.h */,
+				A8E06DFA18F1BCE80012924D /* PMRNumberViewController.m */,
+				A8E06DFF18F1BF650012924D /* PMRNumberPadViewController.h */,
+				A8E06E0018F1BF650012924D /* PMRNumberPadViewController.m */,
+			);
+			name = Transaction;
+			sourceTree = "<group>";
+		};
+		A891EFB518F22F4800C51EBF /* Balance */ = {
+			isa = PBXGroup;
+			children = (
+				A8358C2E18F195F700ECEEC4 /* PMRBalanceViewController.h */,
+				A8358C2F18F195F700ECEEC4 /* PMRBalanceViewController.m */,
+			);
+			name = Balance;
+			sourceTree = "<group>";
+		};
+		A891EFB618F22F4F00C51EBF /* History */ = {
+			isa = PBXGroup;
+			children = (
+				A891EF1D18F21D4800C51EBF /* PMRGraphViewController.h */,
+				A891EF1E18F21D4800C51EBF /* PMRGraphViewController.m */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		A891EFB718F22F6400C51EBF /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				A891EF2618F226C800C51EBF /* JBChartHeaderView.h */,
+				A891EF2718F226C800C51EBF /* JBLineChartFooterView.h */,
+				A891EF2818F226C800C51EBF /* JBLineChartFooterView.m */,
+				A891EF2918F226C800C51EBF /* JBChartHeaderView.m */,
+			);
+			name = Chart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8358C2618F1959900ECEEC4 /* Build configuration list for PBXNativeTarget "MoneyTracker" */;
 			buildPhases = (
+				59B5DD97458042C0BE88665E /* Check Pods Manifest.lock */,
 				A8358BF018F1959900ECEEC4 /* Sources */,
 				A8358BF118F1959900ECEEC4 /* Frameworks */,
 				A8358BF218F1959900ECEEC4 /* Resources */,
+				899099A0B4F747EC867DCCC4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +324,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Pruthvikar Reddy";
 				TargetAttributes = {
+					A8358BF318F1959900ECEEC4 = {
+						DevelopmentTeam = 524Y9N8863;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					A8358C1318F1959900ECEEC4 = {
 						TestTargetID = A8358BF318F1959900ECEEC4;
 					};
@@ -288,17 +376,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59B5DD97458042C0BE88665E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		899099A0B4F747EC867DCCC4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8358BF018F1959900ECEEC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A891EFAA18F2279F00C51EBF /* JBChartInformationView.m in Sources */,
+				A891EF2A18F226C800C51EBF /* JBLineChartFooterView.m in Sources */,
 				A8E06E0718F1E1110012924D /* UIImage+PMRRecolor.m in Sources */,
+				A891EFAB18F2279F00C51EBF /* JBChartTooltipTipView.m in Sources */,
 				A8358C0A18F1959900ECEEC4 /* PMRAppDelegate.m in Sources */,
 				A8E06DF818F1BC650012924D /* PMRNavigationController.m in Sources */,
+				A891EF2B18F226C800C51EBF /* JBChartHeaderView.m in Sources */,
+				A891EF1F18F21D4800C51EBF /* PMRGraphViewController.m in Sources */,
 				A8358C3018F195F700ECEEC4 /* PMRBalanceViewController.m in Sources */,
 				A8E06E0118F1BF650012924D /* PMRNumberPadViewController.m in Sources */,
 				A8358C0D18F1959900ECEEC4 /* MoneyTracker.xcdatamodeld in Sources */,
+				A891EFAC18F2279F00C51EBF /* JBChartTooltipView.m in Sources */,
 				A8E06DFB18F1BCE80012924D /* PMRNumberViewController.m in Sources */,
 				A8E06E0A18F1E4510012924D /* Transaction.m in Sources */,
 				A8358C0618F1959900ECEEC4 /* main.m in Sources */,
@@ -417,26 +544,36 @@
 		};
 		A8358C2718F1959900ECEEC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5133FB2D081C4B04B708CCFA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MoneyTracker/MoneyTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoneyTracker/MoneyTracker-Prefix.pch";
 				INFOPLIST_FILE = "MoneyTracker/MoneyTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		A8358C2818F1959900ECEEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5133FB2D081C4B04B708CCFA /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MoneyTracker/MoneyTracker.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoneyTracker/MoneyTracker-Prefix.pch";
 				INFOPLIST_FILE = "MoneyTracker/MoneyTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

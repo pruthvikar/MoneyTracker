@@ -42,12 +42,18 @@
 {
     if (self.value==0) {
         [_nextButton setEnabled:NO];
-        self.transactionNumber.text=@"0.00";
-        return;
+        
     }
     else{
         [_nextButton setEnabled:YES];
     }
+
+
+
+    NSString *format = [_currencyFormatter positiveFormat];
+    format = [format stringByReplacingOccurrencesOfString:@"¤" withString:@""];
+    [_currencyFormatter setPositiveFormat:format];
+    
 
     self.transactionNumber.text=[_currencyFormatter stringFromNumber:[NSNumber numberWithDouble:self.value/100.0]];
     
@@ -106,7 +112,7 @@
     
     _priceLocale = [NSLocale currentLocale];
     _currencyFormatter=[[NSNumberFormatter alloc] init];
-    [_currencyFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [_currencyFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
     [_currencyFormatter setLocale:_priceLocale];
     
     self.navigationController.navigationBar.layer.borderColor=[UIColor darkGrayColor].CGColor;
