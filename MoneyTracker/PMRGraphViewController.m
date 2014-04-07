@@ -54,7 +54,6 @@ CGFloat const kJBLineChartViewControllerChartSolidLineWidth = 6.0f;
 {
     [super viewDidAppear:animated];
     
-    self.tabBarController.tabBar.barTintColor=[UIColor darkGrayColor];
     [self.lineChartView setState:JBChartViewStateExpanded animated:YES callback:nil];
 
 }
@@ -106,11 +105,6 @@ CGFloat const kJBLineChartViewControllerChartSolidLineWidth = 6.0f;
     self.lineChartView.dataSource = self;
     self.lineChartView.headerPadding = kJBLineChartViewControllerChartHeaderPadding;
 
-    
-
-//    self.lineChartView.headerView = headerView;
-    
-//  self.lineChartView.footerView = footerView;
     
     [self.view addSubview:self.lineChartView];
 
